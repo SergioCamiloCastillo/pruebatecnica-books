@@ -30,6 +30,13 @@
     height:50px;
     margin-bottom:10px;
     font-size: 22px;
+    transition: 0.4s;
+
+}
+.btn-blue:hover{
+    transition: 0.4s;
+    background-color: #033a52;
+
 }
 .btn-blue svg{
     width: 22px;
@@ -43,6 +50,12 @@
     color:#444544;
     height:50px;
     font-size: 22px;
+    transition: 0.4s;
+
+}
+.btn-info:hover{
+    background-color:  #d1cfcf;
+    transition: 0.4s;
 
 }
 .btn-info svg{
@@ -54,4 +67,15 @@
 }
 .padding-buttons-left{
     padding-left: 45px;
+}
+
+@media (max-width: 800px) {
+    .padding-buttons-left{
+       margin-top:40px;
+       padding-left: 0;
+    }
+    
+    .description{
+        padding: 0;
+    }
 }

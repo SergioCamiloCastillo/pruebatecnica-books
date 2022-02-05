@@ -1,6 +1,6 @@
 .container-header{
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     overflow: hidden;
 }
@@ -10,13 +10,11 @@
 }
 
 .logo {
-  color: white;
+  color: red;
   line-height: 90px;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  margin-left: 30px;
-  font-family: "Oleo Script", cursive;
 }
 
 .navlinks {
@@ -68,7 +66,7 @@ li a.contact:hover {
 
 .menu-btn {
   font-size: 25px;
-  color: white;
+  color: #1590C5;
   float: right;
   line-height: 90px;
   margin-right: 40px;
@@ -84,15 +82,20 @@ li a.contact:hover {
     text-align: center;
     transition: all 0.5s;
     right: -100%;
-    background: #222831;
+    background: #1590C5;
+    color:white;
   }
 
   .navlinks li {
     display: block;
+    color:white;
+
   }
 
   .navlinks li a {
     font-size: 20px;
+    color:white!important;
+
   }
 
   .navlinks li a:hover {
@@ -117,6 +120,7 @@ li a.contact:hover {
   .menu-btn {
     margin-right: 10px;
     font-size: 25px;
+    width: 36px;
   }
 
   .menu-btn:focus {

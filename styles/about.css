@@ -26,6 +26,12 @@
     color:#ffffff;
     margin-bottom:10px;
     font-size: 22px;
+    transition: 0.4s;
+
+}
+.section-about button:hover{
+  transition: 0.4s;
+  background-color: #033a52;
 }
 .section-about svg{
     text-align: left;
@@ -73,4 +79,14 @@
     margin: auto;
     vertical-align: middle;
 
+}
+@media (max-width: 800px) {
+  .section-about .images .pr {
+    padding-right: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  .section-about .images .pl {
+    padding-left: 0px!important;
+    padding-bottom: 0px!important;
+  }
 }
