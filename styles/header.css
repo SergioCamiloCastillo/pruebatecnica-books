@@ -15,6 +15,7 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
+  font-family: 'Oleo Script', cursive;
 }
 
 .navlinks {
@@ -94,7 +95,7 @@ li a.contact:hover {
 
   .navlinks li a {
     font-size: 20px;
-    color:white!important;
+    color:white;
 
   }
 
