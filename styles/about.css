@@ -19,21 +19,58 @@
     line-height: 26px;
     margin: 0;
 }
+.section-about button{
+    height:40px!important;
+    text-align: left;
+    background-color: #1590C5;
+    color:#ffffff;
+    margin-bottom:10px;
+    font-size: 22px;
+}
+.section-about svg{
+    text-align: left;
+    float: left;
+    width: 15px;
+    margin: auto;
+    vertical-align: middle;
+}
 .section-about h3 {
   font-weight: 800;
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
 }
-.section-about .btn-blue{
+.section-about .images img{
+    width: 100%;
+    height: 82px;
+    border-radius: 7px;
+}
+.section-about .images .pl{
+    padding-left: 6px;
+    padding-bottom:6px;
+}
+.section-about .images .pr{
+    padding-right: 6px;
+    padding-bottom:6px;
+
+}
+.section-about .btn-blue-about{
     height:40px!important;
     text-align: right;
-  
+    background-color: #1590C5;
+    color:#ffffff;
+    margin-bottom:10px;
+    font-size: 20px!important;
+    
 }
 
-.btn-blue svg{
+.btn-blue-about svg{
 
     text-align: left;
     float: left;
+    width: 22px;
+  
+    margin: auto;
+    vertical-align: middle;
 
 }
